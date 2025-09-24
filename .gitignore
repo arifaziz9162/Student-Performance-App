@@ -1,0 +1,27 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Conda environment files
+.env/
+.venv/
+venv/
+env/
+conda-env/
+*.yml
+*.conda
+
+# VS Code settings
+.vscode/
+
+# Log files
+*.log
+
+# Streamlit cache
+.streamlit/
+
+# Ignore all Jupyter notebooks
+*.ipynb
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
