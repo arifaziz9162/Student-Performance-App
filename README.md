@@ -17,8 +17,8 @@ It uses a trained machine learning model with preprocessing (scaling + label enc
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/arifaziz9162/student-performance-app.git
-   cd student-performance-app
+   git clone https://github.com/arifaziz9162/Student-Performance-App.git
+   cd Student-Performance-App
 
 2. Create a new conda environment
 conda create -n student_pred python=3.11
