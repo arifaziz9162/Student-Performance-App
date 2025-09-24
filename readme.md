@@ -31,7 +31,7 @@ pip install -r requirements.txt
 streamlit run student_performance_app.py
 
 📂 Project Structure
-├── app.py                     
+├── main.py                     
 ├── student_pr_final_model.pkl  
 ├── logger_config.py            
 ├── requirements.txt
