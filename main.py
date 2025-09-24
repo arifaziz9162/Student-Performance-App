@@ -62,7 +62,7 @@ def main():
         try:
             predictor = StudentPerformacePredictor()
             prediction = predictor.predict(user_data)
-            st.success(f"Your prediction result is {prediction[0]}")
+            st.success(f"Your prediction result is {prediction[0]:.2f}")
         except PredictionError as pe:
             st.error(f"Prediction failed: {pe}")
         except Exception as e:
