@@ -43,7 +43,7 @@ class StudentPerformacePredictor:
 
 def main():
     st.title("Student Performance Prediction")
-    st.write("Enter your daata to get a prediction for your performance")
+    st.write("Enter your data to get a prediction for your performance")
 
     hours_studied = st.number_input("Hours Studied", min_value = 1, max_value = 10, value = 5)
     previous_score = st.number_input("Previous Scores", min_value = 40, max_value = 100, value = 70)
